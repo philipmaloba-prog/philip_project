@@ -16,7 +16,7 @@ const SignIn=()=>{
                 data.append('username',username)
                 data.append('password',password)
             
-            const response = await axios.post('',data)
+            const response = await axios.post('https://philipswala.alwaysdata.net/api/signin',data)
             setLoading('')
             setSuccess(response.data.message)
             //clear the form data
@@ -48,7 +48,7 @@ const SignIn=()=>{
                     <input type="password" placeholder="password" className="form-control"required value={password} onChange={(e)=>setPassword(e.target.value)} /> <br />{password} 
                     <button type="submit" className="btn btn-primary">Sign In</button>
                     <div class="social">
-                
+                    <hr/>
                     <button type="submit" className="btn btn-primary">Google</button>
                     <button type="submit" className="btn btn-primary">Apple</button>
                     </div>

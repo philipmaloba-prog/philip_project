@@ -18,7 +18,7 @@ const AddProducts=()=>{
             data.append('product_description', product_description)
             data.append('product_cost', product_cost)
             data.append('product_photo',product_photo)
-            const response = await axios.post('https://philipswala.alwaysdata.net//api/add_product', data)
+            const response = await axios.post('https://philipswala.alwaysdata.net/api/add_product', data)
             setLoading('')
             setproduct_name('')
             setproduct_description('')
