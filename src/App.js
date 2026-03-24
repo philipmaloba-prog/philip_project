@@ -16,7 +16,7 @@ function App() {
       <source src='' type='video/mp4'/>
       </video>
       <header className="App-header bg-info">
-        <h1 className='display-3 text-center p-3 fw-bold text-warning'>Philip_project</h1>
+        <h1 className='display-3 text-center p-3 fw-bold text-warning'>BuildTech Hub</h1>
       </header>
       <NavBar/>
       <Routes>
