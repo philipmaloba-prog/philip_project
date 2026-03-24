@@ -9,7 +9,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
             <div className="container">
                 <NavLink to="/" className="navbar-brand fw-bold text-success display">
-              <b>Philip_project</b>
+              <b>BuildTech Hub</b>
                 </NavLink>
 
                 <button
