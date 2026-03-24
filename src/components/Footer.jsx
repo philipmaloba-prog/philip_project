@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="footer-divider"></div>
       
       <div className="footer-bottom">
-        <p>© 2026 . All rights reserved. | Developed by Maloba</p>
+        <p>© 2026 BuildTech Hub. All rights reserved. | Developed by Maloba</p>
       </div>
     </footer>
   );
